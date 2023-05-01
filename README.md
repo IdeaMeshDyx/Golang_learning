@@ -1,1 +1,1 @@
-This rep records golang grammer and demos
+This repo records golang grammer and demos for newbies
