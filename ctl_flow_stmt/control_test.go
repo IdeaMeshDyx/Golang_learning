@@ -84,4 +84,15 @@ func Test_main(t *testing.T) {
 		fmt.Println(k, v)
 	}
 
+	// infinite loop
+	out := 0
+	for {
+		fmt.Println("infinite loop")
+		// in order to avoid infinite loop
+		out++
+		if out > 10 {
+			break
+		}
+	}
+
 }
